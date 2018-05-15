@@ -213,6 +213,8 @@ typedef struct info_state {
     char *id;
     char *operation;
     char *operation_value;
+    char *arch_operation;
+    char *arch_value;
     struct info_state *prev;
 } info_state;
 
